@@ -1,0 +1,11 @@
+#grid{
+  display: grid; 
+  grid-template: repeat(4, 150px) / repeat(4, 150px); 
+  width: 600px;
+  margin: 0 auto;
+}
+
+.cell{
+  border: 1px solid black;
+  
+}
