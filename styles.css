@@ -1,10 +1,41 @@
-#grid{
-  display: grid;  
-  margin: 0 auto;
+body{
+  background-color: #113EEE;
+}
+h1{
+  text-align: center;
+  color: #EEC111;
+  font: 50px 'Satisfy' ;
+}
+.buttons{
+  width: 600px;
+  margin: 0 auto 20px auto;
+  text-align: center;
 }
 
+.buttons button {
+  border: 1px solid #EEC111;
+  background-color: rgba(0, 0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #EEC111;
+  padding: 7px;
+  margin: 0 10px;
+  
+}
+
+#grid{
+  text-align: center;
+  display: grid;  
+  margin: 0 auto;
+  width: 600px;
+  background-color: #ffffff;
+  border: 5px solid #EEC111;
+}
+
+
 .cell{
-  border: 1px solid black;
+  
+  
 }
 
 .color{
